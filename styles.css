@@ -104,3 +104,79 @@
 .elem:hover{
     background-color: #04961c;
 }
+
+
+@media (max-width: 1280px) {
+    .main {
+        height: 90vh;
+        width: 90vw;
+        background-color: white;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+}
+
+@media (max-width:900px) {
+    .main {
+        height: 95vh;
+        width: 95vw;
+        background-color: white;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .elem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background-color: #65ff7e;
+        padding: 5px;
+        font-size: 16px;
+        font-weight: 600;
+        color: black;
+        cursor: pointer;
+    }
+
+    .nav-bar{
+        height: 3rem;
+        width: 100%;
+    }
+
+    .content-area {
+        text-align: center;
+        align-items: center;
+        box-sizing: border-box;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.2rem 0.2rem;
+        height: calc(100% - 3rem);
+        width: 100%;
+        background-color: white;
+        padding-top: 10px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 500px) {
+    .elem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 1rem;
+        width: 1rem;
+        border-radius: 50%;
+        background-color: #65ff7e;
+        padding: 5px;
+        font-size: 16px;
+        font-weight: 600;
+        color: black;
+        cursor: pointer;
+    }
+}
+
