@@ -1,7 +1,9 @@
+alert("There are 3 sections in this game 1. hit , 2. Timer , 3. Score . You have to click the number same as given in hit from the below given random numbers" )
+
 let clutter = '';
 
-let timer = Number(prompt("enter in seconds for how many second you want to play"))
-// let timer = 60;
+// let timer = Number(prompt("enter in seconds for how many second you want to play"))
+let timer = 60;
 let score = 0;
 let randomHit = 0;
 
